@@ -18,6 +18,7 @@ class SILab2Test {
         RuntimeException ex;
         ex= assertThrows(RuntimeException.class, () -> SILab2.function(times));
         assertTrue(ex.getMessage().contains("The hours are smaller than the minimum"));
+
     }
 
     @Test
